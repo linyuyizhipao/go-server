@@ -11,3 +11,4 @@ WORKDIR /root/
 COPY --from=builder /app/go-server .
 EXPOSE 8080
 CMD ["./go-server"]
+
